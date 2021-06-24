@@ -13,7 +13,7 @@ server.use(express.json())
 
 server.listen(3001, function() {
     console.log('Server Listen at http://localhost:3001');
-    console.log('Users :', lists)
+    console.log('data :', lists)
 });
 
 
